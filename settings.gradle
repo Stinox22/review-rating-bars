@@ -1,0 +1,2 @@
+include ':app', ':reviewratingbars'
+//rootProject.name = 'reviewratingbars'

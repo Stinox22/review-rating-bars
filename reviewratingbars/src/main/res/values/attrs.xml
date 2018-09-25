@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ReviewRatingBars">
+        <attr name="bar_1" format="integer"/>
+        <attr name="bar_2" format="integer"/>
+        <attr name="bar_3" format="integer"/>
+        <attr name="bar_4" format="integer"/>
+        <attr name="bar_5" format="integer"/>
+        <attr name="show_review_count" format="boolean"></attr>
+    </declare-styleable>
+</resources>

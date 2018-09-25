@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.stinox.reviewratingbars.ReviewRatingBars
+        android:id="@+id/rated_bar_main"
+        app:bar_5="105"
+        app:bar_4="50"
+        app:bar_3="10"
+        app:bar_2="190"
+        app:bar_1="15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</android.support.constraint.ConstraintLayout>
