@@ -2,9 +2,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/ll_rated_bar"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:padding="5dp">
+    android:padding="10dp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,13 +18,14 @@
             android:layout_marginEnd="4dp"
             android:layout_marginRight="4dp"
             android:drawableEnd="@drawable/ic_star_black_24dp"
+            android:drawablePadding="2dp"
             android:gravity="center_vertical"
             android:text="5"
-            android:textColor="#424242" />
+            android:textColor="#616161" />
 
         <View
             android:id="@+id/view_bar_5"
-            android:layout_width="200dp"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:background="#00c853" />
 
@@ -34,7 +35,6 @@
             android:layout_height="match_parent"
             android:layout_marginLeft="5dp"
             android:gravity="center"
-            android:text="(22)"
             android:textSize="12sp" />
     </LinearLayout>
 
@@ -50,13 +50,14 @@
             android:layout_marginEnd="4dp"
             android:layout_marginRight="4dp"
             android:drawableEnd="@drawable/ic_star_black_24dp"
+            android:drawablePadding="2dp"
             android:gravity="center_vertical"
             android:text="4"
-            android:textColor="#424242" />
+            android:textColor="#616161" />
 
         <View
             android:id="@+id/view_bar_4"
-            android:layout_width="200dp"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:background="#64dd17" />
 
@@ -66,7 +67,6 @@
             android:layout_height="match_parent"
             android:layout_marginLeft="5dp"
             android:gravity="center"
-            android:text="(22)"
             android:textSize="12sp" />
     </LinearLayout>
 
@@ -82,13 +82,14 @@
             android:layout_marginEnd="4dp"
             android:layout_marginRight="4dp"
             android:drawableEnd="@drawable/ic_star_black_24dp"
+            android:drawablePadding="2dp"
             android:gravity="center_vertical"
             android:text="3"
-            android:textColor="#424242" />
+            android:textColor="#616161" />
 
         <View
             android:id="@+id/view_bar_3"
-            android:layout_width="200dp"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:background="#ffd600" />
 
@@ -98,7 +99,6 @@
             android:layout_height="match_parent"
             android:layout_marginLeft="5dp"
             android:gravity="center"
-            android:text="(22)"
             android:textSize="12sp" />
     </LinearLayout>
 
@@ -114,13 +114,14 @@
             android:layout_marginEnd="4dp"
             android:layout_marginRight="4dp"
             android:drawableEnd="@drawable/ic_star_black_24dp"
+            android:drawablePadding="2dp"
             android:gravity="center_vertical"
             android:text="2"
-            android:textColor="#424242" />
+            android:textColor="#616161" />
 
         <View
             android:id="@+id/view_bar_2"
-            android:layout_width="200dp"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:background="#ff6d00" />
 
@@ -130,7 +131,6 @@
             android:layout_height="match_parent"
             android:layout_marginLeft="5dp"
             android:gravity="center"
-            android:text="(22)"
             android:textSize="12sp" />
     </LinearLayout>
 
@@ -146,13 +146,14 @@
             android:layout_marginEnd="4dp"
             android:layout_marginRight="4dp"
             android:drawableEnd="@drawable/ic_star_black_24dp"
+            android:drawablePadding="2dp"
             android:gravity="center_vertical"
             android:text="1"
-            android:textColor="#424242" />
+            android:textColor="#616161" />
 
         <View
             android:id="@+id/view_bar_1"
-            android:layout_width="200dp"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:background="#d50000" />
 
@@ -162,7 +163,6 @@
             android:layout_height="match_parent"
             android:layout_marginLeft="5dp"
             android:gravity="center"
-            android:text="(22)"
             android:textSize="12sp" />
     </LinearLayout>
 
